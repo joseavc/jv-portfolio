@@ -328,6 +328,22 @@ br.clear {
     clear: both;
 }
 
+/* Skills */
+.skills-div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 6rem;
+}
+
+.skills-div article {
+    width: 150px;
+}
+
+.skills-div article img {
+    width: 10rem;
+}
+
 /* Container */
 
 .container {
@@ -2765,9 +2781,11 @@ button:active,
     #footer .copyright li:first-child {
         margin-top: 0;
     }
-}
 
-.skill {
-    width: 150px;
-    height: 150px;
+    .skills-div {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1px;
+    }
 }
