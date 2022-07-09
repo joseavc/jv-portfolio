@@ -374,6 +374,10 @@ hr {
     background-color: red;
 }
 
+.d-none {
+    display: none;
+}
+
 /* Container */
 
 .container {

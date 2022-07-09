@@ -87,7 +87,7 @@
                         >
                     </li>
                     <li>
-                        <a href="#" class="icon solid fa-envelope"
+                        <a href="mailto:celebrero.magrear.0w@icloud.com" class="icon solid fa-envelope"
                             ><span class="label">Email</span></a
                         >
                     </li>
@@ -391,8 +391,9 @@
                         <h2>Contact</h2>
                     </header>
 
-                    <form method="post" action="#" name="contact">
-                        <div class="row">
+                    <form method="POST" action="#" name="contact" data-netlify="true" onSubmit="submit" data-netlify-honeypot="bot-field">
+                        <input class="d-none" name="bot-field">
+						<div class="row">
                             <div class="col-6 col-12-mobile">
                                 <input
                                     type="text"
